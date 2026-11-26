@@ -1,0 +1,4 @@
+# Keep snapshot bytes exact (UTF-8 BOM, LF holder rows, CRLF DexScreener rows).
+*.csv -text
+*.log -text
+*.json -text
