@@ -674,3 +674,23 @@
 2026-11-26 21:21:17 CST  [The Black Bull] DexScreener OK -> /workspace/data/The Black Bull/dexscreener/dexscreener_The_Black_Bull_2026-11-26_2100.csv
 2026-11-26 21:21:17 CST  [ni hao cat] DexScreener OK -> /workspace/data/ni hao cat/dexscreener/dexscreener_ni_hao_cat_2026-11-26_2100.csv
 2026-11-26 21:21:17 CST  ==== done, 0 failed ====
+2026-11-26 21:45:40 CST  ==== fallback run for 2026-11-26_2145 (China time) ====
+2026-11-26 21:45:40 CST    ben: cache has 3426 addresses up to block 135850998
+2026-11-26 21:45:41 CST    ben: publicnode eth_getLogs available from block 129952573 (probed 129902573)
+2026-11-26 21:45:41 CST    ben: scanning blocks 135850999-135856988 (2 x 5000-block requests, 8 workers)
+2026-11-26 21:45:41 CST    ben: progress 2/2 chunks, block 135856988/135856988, addresses=3426, logs=0, eta 0 min
+2026-11-26 21:45:41 CST    ben: scanned blocks 135850999-135856988: 0 transfer events, 0 new addresses, 3426 total (0.3s)
+2026-11-26 21:45:44 CST    ben: balances for 3426 addresses in 2.8s via Multicall3 x500
+2026-11-26 21:45:44 CST  [ben] OK  3426 rows via BSC RPC log scan -> /home/runner/work/token-holder-collector/token-holder-collector/data/ben/tokenholders-0x3030a6d0_2026-11-26_2145.csv
+2026-11-26 21:45:47 CST  [WOULD] recent file already present (within 30 min) - skip
+2026-11-26 21:45:50 CST  [GIGACHAD] recent file already present (within 30 min) - skip
+2026-11-26 21:45:53 CST  [Catecoin] recent file already present (within 30 min) - skip
+2026-11-26 21:45:56 CST  [The Black Bull] recent file already present (within 30 min) - skip
+2026-11-26 21:45:59 CST  [ni hao cat] recent file already present (within 30 min) - skip
+2026-11-26 21:46:02 CST  [ben] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/ben/dexscreener/dexscreener_ben_2026-11-26_2145.csv
+2026-11-26 21:46:02 CST  [WOULD] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/WOULD/dexscreener/dexscreener_WOULD_2026-11-26_2145.csv
+2026-11-26 21:46:02 CST  [GIGACHAD] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/GIGACHAD/dexscreener/dexscreener_GIGACHAD_2026-11-26_2145.csv
+2026-11-26 21:46:02 CST  [Catecoin] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/Catecoin/dexscreener/dexscreener_Catecoin_2026-11-26_2145.csv
+2026-11-26 21:46:02 CST  [The Black Bull] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/The Black Bull/dexscreener/dexscreener_The_Black_Bull_2026-11-26_2145.csv
+2026-11-26 21:46:02 CST  [ni hao cat] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/ni hao cat/dexscreener/dexscreener_ni_hao_cat_2026-11-26_2145.csv
+2026-11-26 21:46:02 CST  ==== done, 0 failed ====
