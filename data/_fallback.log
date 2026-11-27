@@ -776,3 +776,23 @@
 2026-11-27 16:54:51 CST  [The Black Bull] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/The Black Bull/dexscreener/dexscreener_The_Black_Bull_2026-11-27_1654.csv
 2026-11-27 16:54:51 CST  [ni hao cat] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/ni hao cat/dexscreener/dexscreener_ni_hao_cat_2026-11-27_1654.csv
 2026-11-27 16:54:51 CST  ==== done, 0 failed ====
+2026-11-27 20:56:48 CST  ==== fallback run for 2026-11-27_2056 (China time) ====
+2026-11-27 20:56:48 CST    ben: cache has 3425 addresses up to block 136010068
+2026-11-27 20:56:50 CST    ben: publicnode eth_getLogs available from block 129952573 (probed 129902573)
+2026-11-27 20:56:50 CST    ben: scanning blocks 136010069-136042386 (7 x 5000-block requests, 8 workers)
+2026-11-27 20:56:51 CST    ben: progress 7/7 chunks, block 136042386/136042386, addresses=3436, logs=25, eta 0 min
+2026-11-27 20:56:51 CST    ben: scanned blocks 136010069-136042386: 25 transfer events, 11 new addresses, 3436 total (1.5s)
+2026-11-27 20:56:55 CST    ben: balances for 3436 addresses in 3.4s via Multicall3 x500
+2026-11-27 20:56:55 CST  [ben] OK  3427 rows via BSC RPC log scan -> /home/runner/work/token-holder-collector/token-holder-collector/data/ben/tokenholders-0x3030a6d0_2026-11-27_2056.csv
+2026-11-27 20:56:59 CST  [WOULD] OK  1000 rows via Solscan export -> /home/runner/work/token-holder-collector/token-holder-collector/data/WOULD/export_token_holders_J1Wpmugrooj1yMyQKrdZ2vwRXG5rhfx3vTnYE39gpump_1795784219452.csv
+2026-11-27 20:57:03 CST  [GIGACHAD] OK  1000 rows via Solscan export -> /home/runner/work/token-holder-collector/token-holder-collector/data/GIGACHAD/export_token_holders_63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9_1795784223088.csv
+2026-11-27 20:57:06 CST  [Catecoin] OK  1000 rows via Solscan export -> /home/runner/work/token-holder-collector/token-holder-collector/data/Catecoin/export_token_holders_Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump_1795784226874.csv
+2026-11-27 20:57:10 CST  [The Black Bull] OK  1000 rows via Solscan export -> /home/runner/work/token-holder-collector/token-holder-collector/data/The Black Bull/export_token_holders_9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump_1795784230607.csv
+2026-11-27 20:57:14 CST  [ni hao cat] OK  1000 rows via Solscan export -> /home/runner/work/token-holder-collector/token-holder-collector/data/ni hao cat/export_token_holders_4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump_1795784234253.csv
+2026-11-27 20:57:17 CST  [ben] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/ben/dexscreener/dexscreener_ben_2026-11-27_2056.csv
+2026-11-27 20:57:17 CST  [WOULD] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/WOULD/dexscreener/dexscreener_WOULD_2026-11-27_2056.csv
+2026-11-27 20:57:17 CST  [GIGACHAD] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/GIGACHAD/dexscreener/dexscreener_GIGACHAD_2026-11-27_2056.csv
+2026-11-27 20:57:17 CST  [Catecoin] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/Catecoin/dexscreener/dexscreener_Catecoin_2026-11-27_2056.csv
+2026-11-27 20:57:17 CST  [The Black Bull] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/The Black Bull/dexscreener/dexscreener_The_Black_Bull_2026-11-27_2056.csv
+2026-11-27 20:57:17 CST  [ni hao cat] DexScreener OK -> /home/runner/work/token-holder-collector/token-holder-collector/data/ni hao cat/dexscreener/dexscreener_ni_hao_cat_2026-11-27_2056.csv
+2026-11-27 20:57:17 CST  ==== done, 0 failed ====
