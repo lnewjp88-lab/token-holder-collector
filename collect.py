@@ -188,9 +188,9 @@ def parse_snapshot_time(name: str) -> datetime | None:
 def have_recent(directory: Path, minutes: int = 30) -> bool:
     """Skip when a snapshot from the last `minutes` is already in the folder.
 
-    The timestamp encoded in the filename is the snapshot time. Git checkout
-    rewrites mtimes, so filename time is what keeps the 30-minute guard
-    correct on GitHub Actions. Files without a timestamp fall back to mtime.
+    Recency comes only from the timestamp in the filename (`yyyy-MM-dd_HHmm`
+    or a 13-digit unix-ms suffix). A CSV with neither is not recent. File
+    mtime is ignored because git checkout rewrites it.
     """
     if not directory.is_dir():
         return False
@@ -205,7 +205,7 @@ def have_recent(directory: Path, minutes: int = 30) -> bool:
             continue
         stamp = parse_snapshot_time(entry.name)
         if stamp is None:
-            stamp = datetime.fromtimestamp(entry.stat().st_mtime, tz=timezone.utc)
+            continue
         if stamp.astimezone(timezone.utc) > cutoff:
             return True
     return False
